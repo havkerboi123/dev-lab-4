@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/havkerboi123/dev-lab-4.git''
+                git branch: 'main', url: 'https://github.com/havkerboi123/dev-lab-4.git'
             }
         }
         stage('Build Docker Image') {
